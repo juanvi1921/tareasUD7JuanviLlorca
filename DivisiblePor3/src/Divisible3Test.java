@@ -27,4 +27,9 @@ class Divisible3Test {
     public void divisiblePor3Test5() {
         assertEquals("NO", Divisible3.compruebaDivisiblePor3(10));
     }
+
+    @Test
+    public void divisiblePor3Test6() {
+        assertEquals("SI", Divisible3.compruebaDivisiblePor3(14));
+    }
 }
