@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/DivisiblePor3/DivisiblePor3.iml" filepath="$PROJECT_DIR$/DivisiblePor3/DivisiblePor3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Zapping/Zapping.iml" filepath="$PROJECT_DIR$/Zapping/Zapping.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tareasUD7JuanviLlorca.iml" filepath="$PROJECT_DIR$/tareasUD7JuanviLlorca.iml" />
+    </modules>
+  </component>
+</project>
