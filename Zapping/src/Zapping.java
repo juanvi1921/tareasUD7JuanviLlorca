@@ -17,17 +17,19 @@ public class Zapping {
     }
 
     public static int cambiarCanal(int canalOrigen, int canalDestino) {
-
-        for (int i = 0; i < K_NUMCANALES; i++) {
-            if (canalDestino > canalOrigen) {
-                siguenteCanal();
-                if (canal == canalDestino) {
-                    return numClics;
-                }
-            } else if (canalDestino < canalOrigen) {
-                anteriorCanal();
-                if (canal == canalDestino) {
-                    return numClics;
+        canal = canalOrigen;
+        if (canalDestino != canalOrigen) {
+            for (int i = 0; i < K_NUMCANALES; i++) {
+                if ((canalDestino - canalOrigen) > 0 && canalDestino > canalOrigen) {
+                    siguenteCanal();
+                    if (canal == canalDestino) {
+                        return numClics;
+                    }
+                } else if ((canalOrigen - canalDestino) < 0 && canalDestino < canalOrigen) {
+                    anteriorCanal();
+                    if (canal == canalDestino) {
+                        return numClics;
+                    }
                 }
             }
         }
