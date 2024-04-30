@@ -22,4 +22,9 @@ class ZappingTest {
     public void testZapping4() {
         assertEquals(2, Zapping.cambiarCanal(2,99));
     }
+
+    @Test
+    public void testZapping5(){
+        assertEquals(41, Zapping.cambiarCanal(5,63));
+    }
 }
